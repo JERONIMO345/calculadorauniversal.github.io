@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor Universal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href=""><img src="" alt=""></a>
+            <ul>
+                <li>Inicio</li>
+                <li>Donar</li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="div-main">
+            <div class="section-input">
+                <input type="number" id="entradaUser" placeholder="Ingrese el dato de entrada...">
+                <label for="">Seleccionar unidad de medida de entrada:</label>
+                <div class="unidades">
+                    <select name="" class="temperatura" id="temperatura">
+                        <option value="none">Temperatura</option>
+                        <option value="centigrados">C° (Centigrados o Celsius)</option>
+                        <option value="farenheit">F° (Farenheit)</option>
+                        <option value="kelvin">K° (Kelvin)</option>
+                    </select>
+                    <select name="" class="longitud" id="longitud">
+                        <option value="none">Longitud</option>
+                        <option value="metros">M (Metros)</option>
+                        <option value="centimetros">Cm (Centimetros)</option>
+                        <option value="milimetros">mm (Milimetros)</option>
+                        <option value="kilometros">km (Kilometros)</option>
+                    </select>
+                    <select name="" class="divisa" id="divisa">
+                        <option value="">Divisa (Moneda)</option>
+                        <option value="">Peso Colombiano (COP) </option>
+                        <option value="">Peso Mexicano (MXN)</option>
+                        <option value="">Peso Argentino (ARS)</option>
+                        <option value="">Real (BRL)</option>
+                        <option value="">Dolar canadiense (CAD)</option>
+                        <option value="">Dolar estounidense (USD)</option>
+                        <option value="">Libra Esterlina (GBP)</option>
+                        <option value="">Yen Japonés (JPY)</option>
+                        <option value="">Rupia India (INR)</option>
+                        <option value="">Euro (EUR)</option>
+                        <option value="">Yuan (CNY)</option>
+                        <option value="">Dolar Autraliano (AUD)</option>
+                        <option value="">Afghani (AFN)</option>
+                    </select>
+                    <select name="" class="peso" id="peso">
+                        <option value="">Masa</option>
+                        <option value="">Kilogramo (kg)</option>
+                        <option value="">Gramo (g)</option>
+                        <option value="">Miligramo (mg)</option>
+                        <option value="">Tonelada (t)</option>
+                        <option value="">Grano (gr)</option>
+                        <option value="">Dram (dr)</option>
+                        <option value="">Onza (oz)</option>
+                        <option value="">Libra (lb)</option>
+                        <option value="">Tonelada corta (cwt o ton)</option>
+                    </select>
+                    <select name="" class="datos" id="datos">
+                        <option value="">Datos</option>
+                        <option value="">Bit (b)</option>
+                        <option value="">Byte (B)</option>
+                        <option value="">Kilobyte (kb)</option>
+                        <option value="">Megabyte (mb)</option>
+                        <option value="">Gigabyte (gb)</option>
+                        <option value="">Terabyte (tb)</option>
+                        <option value="">Petabyte (pb)</option>
+                        <option value="">Exabyte (eb)</option>
+                        <option value="">Zettabyte (zb)</option>
+                        <option value="">Yottabyte (yb)</option>
+                        <option value="">Brontobyte (bb)</option>
+                        <option value="">Geopbyte (gb)</option>
+                    </select>
+                    <select name="" class="tiempo" id="tiempo">
+                        <option value="">Tiempo</option>
+                        <option value="">Segundo (s)</option>
+                        <option value="">Minuto (min)</option>
+                        <option value="">Hora (h)</option>
+                        <option value="">Día (d)</option>
+                        <option value="">Semana</option>
+                        <option value="">Año (tb)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="section-output">
+                <input type="text" placeholder="Espere el resultado..." id="salida">
+                <label for="">Seleccionar unidad de medida de salida:</label>
+                <div class="unidades">
+                    <select name="" class="temperatura" id="temperaturaSalida">
+                        <option value="none">Temperatura</option>
+                        <option value="centigrados">C° (Centigrados o Celsius)</option>
+                        <option value="farenheit">F° (Farenheit)</option>
+                        <option value="kelvin">K° (Kelvin)</option>
+                    </select>
+                    <select name="" class="longitud" id="longitudSalida">
+                        <option value="none">Longitud</option>
+                        <option value="metros">M (Metros)</option>
+                        <option value="centimetros">Cm (Centimetros)</option>
+                        <option value="milimetros">mm (Milimetros)</option>
+                        <option value="kilometros">km (Kilometros)</option>
+                    </select>
+                    <select name="" class="divisa" id="divisaSalida">
+                        <option value="">Divisa (Moneda)</option>
+                        <option value="">Peso Colombiano (COP) </option>
+                        <option value="">Peso Mexicano (MXN)</option>
+                        <option value="">Peso Argentino (ARS)</option>
+                        <option value="">Real (BRL)</option>
+                        <option value="">Dolar canadiense (CAD)</option>
+                        <option value="">Dolar estounidense (USD)</option>
+                        <option value="">Libra Esterlina (GBP)</option>
+                        <option value="">Yen Japonés (JPY)</option>
+                        <option value="">Rupia India (INR)</option>
+                        <option value="">Euro (EUR)</option>
+                        <option value="">Yuan (CNY)</option>
+                        <option value="">Dolar Autraliano (AUD)</option>
+                        <option value="">Afghani (AFN)</option>
+                    </select>
+                    <select name="" class="peso" id="pesoSalida">
+                        <option value="">Masa</option>
+                        <option value="">Kilogramo (kg)</option>
+                        <option value="">Gramo (g)</option>
+                        <option value="">Miligramo (mg)</option>
+                        <option value="">Tonelada (t)</option>
+                        <option value="">Grano (gr)</option>
+                        <option value="">Dram (dr)</option>
+                        <option value="">Onza (oz)</option>
+                        <option value="">Libra (lb)</option>
+                        <option value="">Tonelada corta (cwt o ton)</option>
+                    </select>
+                    <select name="" class="datos" id="datosSalida">
+                        <option value="">Datos</option>
+                        <option value="">Bit (b)</option>
+                        <option value="">Byte (B)</option>
+                        <option value="">Kilobyte (kb)</option>
+                        <option value="">Megabyte (mb)</option>
+                        <option value="">Gigabyte (gb)</option>
+                        <option value="">Terabyte (tb)</option>
+                        <option value="">Petabyte (pb)</option>
+                        <option value="">Exabyte (eb)</option>
+                        <option value="">Zettabyte (zb)</option>
+                        <option value="">Yottabyte (yb)</option>
+                        <option value="">Brontobyte (bb)</option>
+                        <option value="">Geopbyte (gb)</option>
+                    </select>
+                    <select name="" class="tiempo" id="tiempoSalida">
+                        <option value="">Tiempo</option>
+                        <option value="">Segundo (s)</option>
+                        <option value="">Minuto (min)</option>
+                        <option value="">Hora (h)</option>
+                        <option value="">Día (d)</option>
+                        <option value="">Semana</option>
+                        <option value="">Año (tb)</option>
+                    </select>
+                </div>
+            </div>
+            <button onclick="OutputButton()">Ver</button>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

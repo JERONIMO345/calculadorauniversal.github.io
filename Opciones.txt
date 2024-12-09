@@ -1,0 +1,6 @@
+1.Temperatura
+2.Moneda
+3.Longitud
+4.Peso
+5.Datos(bytes,megabytes,terabytes,etc)
+6.Tiempo
